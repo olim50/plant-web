@@ -38,10 +38,10 @@
     <!-- Header -->
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
       <nav class="container flex items-center h-16 justify-between">
-        <div class="nav-logo flex text-4xl items-center cursor-pointer">
+        <a href="#home" class="nav-logo flex text-4xl items-center cursor-pointer">
           <i class="ri-leaf-fill inline-block pr-2"></i>
           <p class="font-Niconne text-3xl sm:text-6xl">IndorePlants.</p>
-        </div>
+        </a>
 
         <div
           id="nav-menu"
@@ -707,17 +707,20 @@
     <p class="text-center font-bold text-green-900 opacity-70">
     Copyright &copy; 2024 HomeCoder. All rights reserved.</p>
   </div>
+  <!-- Scroll Up -->
+  <a href="#"
+    class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300"
+    id="scroll-up" title="перейти вначало">
+    <i class="ri-arrow-up-line"></i>
+  </a>
 
   <!-- floral image -->
   <div class="footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none">
     <img src="./assets/img/floral-1.png" alt="floral_image" class="w-64" />
   </div>
-</footer>
 
-  <!-- Scroll Up -->
-    <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up" title="перейти вначало">
-    <i class="ri-arrow-up-line"></i>
-    </a>
+
+</footer>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

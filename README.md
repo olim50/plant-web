@@ -1,18 +1,18 @@
-# Responsive PLANT web project
+# Responsive frontend design for plant-web
 
-## Code:
+### Code:
 
 1. HTML
 2. CSS
 3. JavaSript
 
-## Used:
+### Used:
 
 A. Tailwind CSS: https://tailwindcss.com/
 B. Animation: https://scrollrevealjs.org/
 C. Remix icon: https://remixicon.com/
 
-## WebSite structure:
+### WebSite structure:
 
 1. Header
 2. Home Section
@@ -26,12 +26,12 @@ C. Remix icon: https://remixicon.com/
 10. Active Link
 11. Animation
 
-## Images:
+### Images:
 
 A. https://pngtree.com/free-leaf-vectors
 B. https://unsplash.com/s/photos/plants
 
-## ✅ System requirements
+### ✅ System requirements
 
 Make sure you have the following installed:
 
@@ -40,7 +40,7 @@ Make sure you have the following installed:
 - VSCode or another text editor of your choice.
 -
 
-## Setup
+### Setup
 
 ```bash
   - node -v
@@ -55,7 +55,7 @@ Make sure you have the following installed:
   - npm run watch
 ```
 
-## and:
+### and:
 
 In package.json you change:
 
@@ -67,7 +67,7 @@ In package.json you change:
   - Live Server
   - Tailwind CSS IntelliSense
 
-## About SCREENS
+### About SCREENS
 
     - xs: "340px",
     # => @media (min-width: 340px) { ... }
@@ -84,9 +84,18 @@ In package.json you change:
     - xl: "1180px",
     # => @media (min-width: 1180px) { ... }
 
-## Deployment
+### Deploy
 
-Use netlify.com
+Use netlify.com to deploy
 
----
-# plant-web
+https://plants-shoping.netlify.app
+
+
+
+
+
+*********
+
+Deploys from github.com/olim50/plant-web
+
+*********
